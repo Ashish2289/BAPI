@@ -1,0 +1,41 @@
+{
+	"common": {
+		"task_id": "123",
+		"transaction_id": "123",
+		"source": "BAPI",
+		"action": "Send for Approval"
+	},
+	"details": {
+		"approval_required": "Yes",
+		"upload_type": "New",
+		"id": "",
+		"classification": {
+			"type": "Information",
+			"business_criticality": "Medium"
+		},
+		"ip_based_host_attributes": {
+			"serial_no": "",
+			"ipv6_address": ""
+		},
+		"locations": {
+			"primary_location": "",
+			"secondary_locations": [
+				""
+			]
+		},
+		"validity": {
+			"dates": {
+				"valid_from": "",
+				"valid_until": ""
+			}
+		}
+	},
+	"relationships": {
+		"relationships": [
+			{
+				"relationship_instance_id": "",
+				"comments": "TEST"
+			}
+		]
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"common": {
+		"task_id": 1,
+		"transaction_id": 1,
+		"source": "S",
+		"action": "A"
+	},
+	"details": {
+		"approval_required": "yes",
+		"upload_type": "New",
+		"id": 1,
+		"classification": {
+			"type": "Information",
+			"business_criticality": "Medium"
+		},
+		"ip_based_host_attributes": {
+			"serial_no": 1,
+			"ipv6_address": "111.111.111.111"
+		},
+		"locations": {
+			"primary_location": "",
+			"secondary_locations": [
+				"A",
+				"B"
+			]
+		},
+		"validity": {
+			"dates": {
+				"valid_from": "23-4",
+				"valid_until": "23-4"
+			}
+		}
+	},
+	"relationships": {
+		"relationships": [
+			{
+				"relationship_instance_id": "A",
+				"comments": "testcomments"
+			}
+		]
+	}
+}
